@@ -12,7 +12,10 @@ function App() {
       alert("Counter value cannot be more than 20");
       return;
     }
-    setCounter(counter + 1);
+    // setCounter(counter + 2);
+    // setCounter(counter + 2); interview question
+    setCounter(prevCounter=> prevCounter + 1);
+     setCounter(prevCounter=> prevCounter + 1);
     // console.log("clicked",counter);
   }
 
